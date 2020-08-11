@@ -1,0 +1,42 @@
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+  z-index: 999;
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-button {
+  margin: 20px !important;
+}
+
+.repo-content {
+  transition: all 0.2s;
+}
+.repo-content:hover {
+  transform: scale(1.05, 1.05);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 12s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
